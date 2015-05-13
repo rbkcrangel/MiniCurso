@@ -1,0 +1,141 @@
+*************************************************************************************************************************
+Comandos
+*************************************************************************************************************************
+
+cd
+
+cd / :root
+cd .. :padre
+cd 
+
+touch crear archivos
+
+rm
+
+mkdir crear directorio "\ \" es para pasar espacio
+
+mv mover poner el nombre del archivo y a donde lo vas a copiar
+	tambien sirve para renombrar
+
+nano
+
+ls
+
+cat
+
+ls -la
+
+sudo
+
+dd
+
+su cambiarte de usuario y ponerte por el usuario root
+
+man + comando 
+
+clear
+
+*************************************************************************************************************************
+Comandos para instalar Ruby (https://rvm.io/rvm/install)
+*************************************************************************************************************************
+
+gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+\curl -sSL https://get.rvm.io | bash -s stable --ruby
+
+***Te pide correr este comando
+* To start using RVM you need to run `source /home/rbk/.rvm/scripts/rvm`
+    in all your open shell windows, in rare cases you need to reopen all shell windows.source /home/rbk/.rvm/scripts/rvm
+
+source /home/rbk/.rvm/scripts/rvm
+rvm install 2.2.2
+gem install rails --no-ri --no-rdoc (no instalar la documentación)
+
+***Menu edit/preference en la segunda pestalla habilitar los 2 de shell
+
+rvm list
+rvm --default use 2.1.1
+***********************************
+1.	Instalación RVM (https://rvm.io/rvm/install):
+	1.1	gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+	1.2	\curl -sSL https://get.rvm.io | bash -s stable --ruby
+	1.3	Ejecutar path que muestra al final de la instalación de RVM (source /home/garp/.rvm/scripts/rvm)
+2.	muestra lista de versiones de Ruby instaladas:		rvm list
+3.	muestra el path dela versión de Ruby:				which ruby
+4.	Instala la versión de Ruby que se especifica:		rvm install 2.2.2
+5.	Se cambia a la versión e Ruby que se especifica:	rvm use 2.2.2 --default
+6.	Instalacion de Rails:				 				gem install rails --no-ri --no-rdoc
+7.	corroborar instalación de Ruby:						ruby –v
+8.	corroborar instalación de Rails: 					rails -v
+
+**JS
+
+sudo add-apt-repository ppa:chris-lea/node.js
+sudo apt-get update
+sudo apt-get install nodejs
+------------------------
+Sublime text 3 
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
+sudo apt-get update
+sudo apt-get install sublime-text-installer
+
+A) https://packagecontrol.io/installation
+
+Click the Preferences > Browse Packages… menu
+Browse up a folder and then into the Installed Packages/ folder
+Download Package Control.sublime-package and copy it into the Installed Packages/ directory
+Restart Sublime Text
+
+B)https://packagecontrol.io/installation
+View > Show Console menu. Once open, paste version of Sublime Text into the console.
+
+SUBLIME TEXT 3
+import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
+
+***Después
+Preference>Package control> Install Package >
+
+CSS3
+HTML5
+EMMET
+
+*****************************************************************
+HTML
+*****************************************************************
+Principales tags
+
+<h1>Welcome Título</h1>
+<p>Párrafo</p>
+<h2>Subtítulo</h2>
+<a href="http://www.google.com">Google</a>
+<a href="http://www.google.com" target="_blank">Google otra</a>
+<img src="https://cid-cdb2e8388fca2b16.users.storage.live.com/users/0xcdb2e8388fca2b16/myprofile/expressionprofile/profilephoto:UserTileLarge,UserTileStatic/MeControlMediumUserTile?ck=1&ex=24&fofoff=1">
+<hr>
+<br>
+<a href="http://www.google.com">
+	<img src="https://cid-cdb2e8388fca2b16.users.storage.live.com/users/0xcdb2e8388fca2b16/myprofile/expressionprofile/profilephoto:UserTileLarge,UserTileStatic/MeControlMediumUserTile?ck=1&ex=24&fofoff=1"
+	alt="imagen">
+</a>
+<ul>
+	<li>Item 1</li>
+	<li>Item 2</li>
+</ul>
+<ol>
+	<li>Item A</li>
+	<li>Item B</li>
+</ol>
+*************************************************************************************************************************
+CVM
+***************************************************************************
+*Controller, es decirle las paginas con que url
+*Vistas, los elementos que contiene una página
+*model,
+
+CSS esta en Assets>stylesheets>
+
+*****************
+sudo apt-get install git
+sudo apt-get update git
+
+git config --global user.name "rbkcrangel"
+git config --global user.mail "correo"
+git config --list
