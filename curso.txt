@@ -133,9 +133,13 @@ CVM
 CSS esta en Assets>stylesheets>
 
 *****************
+sudo apt-get update
 sudo apt-get install git
-sudo apt-get update git
+
 
 git config --global user.name "rbkcrangel"
 git config --global user.mail "correo"
 git config --list
+
+git status
+git add . (todo)
