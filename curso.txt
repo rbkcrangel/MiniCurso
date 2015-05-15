@@ -124,14 +124,7 @@ Principales tags
 	<li>Item B</li>
 </ol>
 *************************************************************************************************************************
-CVM
-***************************************************************************
-*Controller, es decirle las paginas con que url
-*Vistas, los elementos que contiene una página
-*model,
-
-CSS esta en Assets>stylesheets>
-
+GIT
 *****************
 sudo apt-get update
 sudo apt-get install git
@@ -143,3 +136,50 @@ git config --list
 
 git status
 git add . (todo)
+git commit
+*******************************
+Ruby on rails
+
+A. Crear proyecto
+1. cd....situarse en el directorio
+2. rails new [nombre del proyecto]
+
+B. Crear un controlador, con este se genera hasta la vista
+1. rails g controller welcome index
+
+
+CVM
+***************************************************************************
+*Controller, es decirle las paginas con que url
+*Vistas, los elementos que contiene una página
+*model,
+
+CSS esta en Assets>stylesheets>
+
+**No usar tanto br ni hr
+****************************
+CSS
+
+h1, h2, p{
+	color:gray
+}
+#titulo1{
+	font-size: 100px;
+}
+.titulos{
+	color: black;
+}
+**# es para id y . es para class
+
+******************************
+Bootstrap
+*****************************
+Se pegan unas líneas en el head de aplication.html.erb
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
